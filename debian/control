@@ -3,7 +3,7 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Rohan Garg <rohangarg@kubuntu.org>
 Build-Depends: debhelper (>= 8.0.0), cmake,
- extra-cmake-modules,
+ extra-cmake-modules (>= 0.0.10),
  pkg-kde-tools,
  qtbase5-dev (>= 5.2.0),
  hspell,
@@ -18,13 +18,13 @@ Homepage: http://projects.kde.org/sonnet
 Package: libkf5sonnet-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5sonnetcore5 (= ${binary:Version}),
- libkf5sonnetui5 (= ${binary:Version})
+Depends: libkf5sonnetcore4 (= ${binary:Version}),
+ libkf5sonnetui4 (= ${binary:Version})
 Description: development headers for the sonnet framework
  This package contains development files for building software that uses
  libraries from the sonnet framework
 
-Package: libkf5sonnetcore5
+Package: libkf5sonnetcore4
 Section: libs
 Architecture: any
 Multi-Arch: same
@@ -34,7 +34,7 @@ Description:  Sonnet offers easy access to spell checking and is based
  Sonnet is a Qt based library that offers easy access to spell checking
  using various plugin based backends.
 
-Package: libkf5sonnetui5
+Package: libkf5sonnetui4
 Section: libs
 Architecture: any
 Multi-Arch: same
@@ -52,11 +52,11 @@ Description: spell checking plugins used by sonnet
  This package provides plugins used by sonnet to interact with
  the various spell checking backends.
 
-Package: libkf5sonnet5-dbg
+Package: libkf5sonnet4-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Depends: libkf5sonnetcore5 (= ${binary:Version}), libkf5sonnetui5 (= ${binary:Version}), 
+Depends: libkf5sonnetcore4 (= ${binary:Version}), libkf5sonnetui4 (= ${binary:Version}), 
  ${shlibs:Depends}, ${misc:Depends}
 Description: debugging symbols for the sonnet framework
  This package contains debugging files used to investigate problems with
