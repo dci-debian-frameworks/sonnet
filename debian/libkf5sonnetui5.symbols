@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5SonnetUi.so.4 libkf5sonnetui4 #MINVER#
+libKF5SonnetUi.so.5 libkf5sonnetui5 #MINVER#
  _ZN6Sonnet11Highlighter10ignoreWordERK7QString@Base 4.96.0
  _ZN6Sonnet11Highlighter11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN6Sonnet11Highlighter11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
