@@ -3,7 +3,7 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Rohan Garg <rohangarg@kubuntu.org>
 Build-Depends: debhelper (>= 8.0.0), cmake,
- extra-cmake-modules (>= 0.0.10),
+ extra-cmake-modules (>= 0.0.11),
  pkg-kde-tools,
  qtbase5-dev (>= 5.2.0),
  hspell,
