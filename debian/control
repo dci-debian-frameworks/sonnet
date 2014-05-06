@@ -84,7 +84,7 @@ Package: libkf5sonnet5-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Depends: libkf5sonnetcore5 (= ${binary:Version}), libkf5sonnetui4 (= ${binary:Version}), 
+Depends: libkf5sonnetcore5 (= ${binary:Version}), libkf5sonnetui5 (= ${binary:Version}), 
  ${shlibs:Depends}, ${misc:Depends}
 Description: spell checking library for Qt
  Sonnet is a Qt based library that offers easy access to spell
