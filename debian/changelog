@@ -2,6 +2,7 @@ sonnet (4.99.0-0ubuntu2) UNRELEASED; urgency=medium
 
   * Install *.pri files in arch dependent path.
   * Use ${allLibraries} substvar in -dev and -dbg depends.
+  * Add ${misc:Depends} and ${shlibs:Depends} to -dev depends.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sat, 31 May 2014 03:01:37 +0200
 

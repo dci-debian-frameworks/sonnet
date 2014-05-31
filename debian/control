@@ -22,7 +22,7 @@ Homepage: http://projects.kde.org/sonnet
 Package: libkf5sonnet-dev
 Section: libdevel
 Architecture: any
-Depends: ${allLibraries}
+Depends: ${allLibraries}, ${misc:Depends}, ${shlibs:Depends}
 Description: spell checking library for Qt
  Sonnet is a Qt based library that offers easy access to spell
  checking using various plugin based backends.  It is part of KDE
