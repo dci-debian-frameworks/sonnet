@@ -9,6 +9,8 @@ sonnet (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Harald Sitter ]
   * Update sonnet plugins install path
+  * Remove useless Pre-Depends fields used for multiarch compat in
+    releases older than trusty
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:46:47 +0100
 
