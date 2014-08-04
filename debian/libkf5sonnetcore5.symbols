@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5SonnetCore.so.5 libkf5sonnetcore5 #MINVER#
  _ZN6Sonnet10TextBreaks10wordBreaksERK7QString@Base 4.96.0
  _ZN6Sonnet10TextBreaks14sentenceBreaksERK7QString@Base 4.96.0
@@ -85,9 +85,6 @@ libKF5SonnetCore.so.5 libkf5sonnetcore5 #MINVER#
  _ZN6Sonnet6Client16staticMetaObjectE@Base 4.96.0
  _ZN6Sonnet6ClientC1EP7QObject@Base 4.96.0
  _ZN6Sonnet6ClientC2EP7QObject@Base 4.96.0
- _ZN6Sonnet6ClientD0Ev@Base 4.96.0
- _ZN6Sonnet6ClientD1Ev@Base 4.96.0
- _ZN6Sonnet6ClientD2Ev@Base 4.96.0
  _ZN6Sonnet6Loader10loadPluginERK7QString@Base 4.96.0
  _ZN6Sonnet6Loader10openLoaderEv@Base 4.96.0
  _ZN6Sonnet6Loader11loadPluginsEv@Base 4.96.0
