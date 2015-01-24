@@ -1,4 +1,4 @@
-sonnet (5.6.0-1~) UNRELEASED; urgency=medium
+sonnet (5.6.0-1) experimental; urgency=medium
 
   [ Harald Sitter ]
   * Do not build depend on qt5-default, we only need qtbase5-dev
@@ -15,7 +15,7 @@ sonnet (5.6.0-1~) UNRELEASED; urgency=medium
   * Update copyright information.
   * Add basic autopkgtests support.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 24 Jan 2015 19:09:02 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 24 Jan 2015 19:41:02 +0100
 
 sonnet (5.2.0-0ubuntu1) utopic; urgency=medium
 
