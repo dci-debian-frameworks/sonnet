@@ -3,8 +3,8 @@ Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
-               debhelper (>= 8.0.0),
-               extra-cmake-modules (>= 1.2.0),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 1.6.0),
                hspell,
                libaspell-dev,
                libenchant-dev,
@@ -77,7 +77,7 @@ Package: sonnet-plugins
 Section: kde
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Suggests: hspell 
+Suggests: hspell
 Description: spell checking library for Qt
  Sonnet is a Qt based library that offers easy access to spell
  checking using various plugin based backends.  It is part of KDE

@@ -4,10 +4,11 @@ sonnet (5.6.0-1~) UNRELEASED; urgency=medium
   * Do not build depend on qt5-default, we only need qtbase5-dev
 
   [ Scarlett Clark ]
-  * Add new build dependency to Aspell. 
+  * Add new build dependency to Aspell.
 
   [ Maximiliano Curia ]
   * New upstream release (5.6.0).
+  * Bump build dependencies to build against the experimental versions.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 24 Jan 2015 19:09:02 +0100
 
@@ -21,7 +22,7 @@ sonnet (5.2.0-0ubuntu1) utopic; urgency=medium
 sonnet (5.1.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
-  * Update copyright to match licensing to source 
+  * Update copyright to match licensing to source
 
   [ José Manuel Santamaría Lema ]
   * Update libraries *.install paths so a soname bump doesn't go
@@ -29,7 +30,7 @@ sonnet (5.1.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
-  * Patch symbols with batchpatch 
+  * Patch symbols with batchpatch
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:13:17 +0200
 
