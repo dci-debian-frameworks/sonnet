@@ -1,4 +1,8 @@
-usr/include/*
-usr/lib/*/*.so
-usr/lib/*/cmake
-usr/lib/*/qt5/mkspecs/modules/*
+usr/include/KF5/SonnetCore/
+usr/include/KF5/SonnetUi/
+usr/include/KF5/sonnet_version.h
+usr/lib/*/libKF5SonnetCore.so
+usr/lib/*/libKF5SonnetUi.so
+usr/lib/*/cmake/KF5Sonnet/
+usr/lib/*/qt5/mkspecs/modules/qt_SonnetCore.pri
+usr/lib/*/qt5/mkspecs/modules/qt_SonnetUi.pri
