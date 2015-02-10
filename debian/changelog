@@ -1,8 +1,8 @@
-sonnet (5.7.0-0ubuntu1) UNRELEASED; urgency=medium
+sonnet (5.7.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Harald Sitter <sitter@kde.org>  Mon, 09 Feb 2015 10:07:08 +0100
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:54:45 +0100
 
 sonnet (5.6.0-0ubuntu1) vivid; urgency=medium
 
