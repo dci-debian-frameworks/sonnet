@@ -8,13 +8,13 @@ Build-Depends: cmake (>= 2.8.12),
                extra-cmake-modules (>= 1.7.0),
                hspell,
                libaspell-dev,
-               libenchant-dev,
                libhunspell-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.2.0),
                qttools5-dev,
-               qttools5-dev-tools
+               qttools5-dev-tools,
+               zlib1g-dev
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://projects.kde.org/sonnet
