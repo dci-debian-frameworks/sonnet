@@ -4,6 +4,12 @@ sonnet (5.7.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 17:35:04 +0100
 
+sonnet (5.7.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:54:45 +0100
+
 sonnet (5.6.0-1) experimental; urgency=medium
 
   [ Harald Sitter ]
@@ -22,6 +28,41 @@ sonnet (5.6.0-1) experimental; urgency=medium
   * Add basic autopkgtests support.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 24 Jan 2015 19:41:02 +0100
+
+sonnet (5.6.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 06 Jan 2015 20:15:32 +0100
+
+sonnet (5.5.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 11:13:20 +0100
+
+sonnet (5.4.0-0ubuntu1) vivid; urgency=medium
+
+  [ Scarlett Clark ]
+  * Add new dependency to Aspell 
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Nov 2014 15:02:08 +0100
+
+sonnet (5.3.0-0ubuntu1) utopic; urgency=medium
+
+  [ Harald Sitter ]
+  * Do not build depend on qt5-default, we only need qtbase5-dev
+
+  [ Scarlett Clark ]
+  * Add new build dependency to Aspell. 
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 Oct 2014 11:12:01 +0100
 
 sonnet (5.2.0-0ubuntu1) utopic; urgency=medium
 
