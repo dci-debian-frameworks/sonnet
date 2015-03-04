@@ -1,4 +1,5 @@
 Source: sonnet
+Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
@@ -15,11 +16,10 @@ Build-Depends: cmake (>= 2.8.12),
                qttools5-dev,
                qttools5-dev-tools
 Standards-Version: 3.9.6
-Section: libs
 XS-Testsuite: autopkgtest
 Homepage: http://projects.kde.org/sonnet
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/attica.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/attica.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/sonnet.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/sonnet.git
 
 Package: libkf5sonnet-dev
 Section: libdevel
@@ -49,7 +49,6 @@ Description: spell checking library for Qt
  Frameworks 5.
 
 Package: libkf5sonnetui5
-Section: libs
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -63,7 +62,6 @@ Description: spell checking library for Qt
  by projects to construct spell checking user interfaces.
 
 Package: libkf5sonnet5-data
-Section: libs
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -91,11 +89,11 @@ Package: libkf5sonnet5-dbg
 Section: debug
 Priority: extra
 Architecture: any
+Multi-Arch: same
 Depends: libkf5sonnetcore5 (= ${binary:Version}),
          libkf5sonnetui5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Multi-Arch: same
 Description: spell checking library for Qt
  Sonnet is a Qt based library that offers easy access to spell
  checking using various plugin based backends.  It is part of KDE
