@@ -1,6 +1,7 @@
 sonnet (5.10.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.10.0).
+  * Update symbols files from buildds logs (5.9.0-1).
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 12:17:59 +0200
 
