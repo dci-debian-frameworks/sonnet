@@ -1,4 +1,4 @@
-sonnet (5.11.0-1~) UNRELEASED; urgency=medium
+sonnet (5.11.0-1) unstable; urgency=medium
 
   * New upstream release (5.10.0).
   * Update symbols files from buildds logs (5.9.0-1).
@@ -6,7 +6,7 @@ sonnet (5.11.0-1~) UNRELEASED; urgency=medium
   * Update copyright information.
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 25 Jun 2015 15:34:32 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Jun 2015 12:20:12 +0200
 
 sonnet (5.9.0-1) experimental; urgency=medium
 
