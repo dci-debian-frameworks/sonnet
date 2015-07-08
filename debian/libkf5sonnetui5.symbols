@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 5.12.0 amd64
 libKF5SonnetUi.so.5 libkf5sonnetui5 #MINVER#
  _ZN6Sonnet11Highlighter10ignoreWordERK7QString@Base 4.96.0
  _ZN6Sonnet11Highlighter11eventFilterEP7QObjectP6QEvent@Base 4.96.0
@@ -23,7 +23,9 @@ libKF5SonnetUi.so.5 libkf5sonnetui5 #MINVER#
  _ZN6Sonnet11Highlighter7PrivateD1Ev@Base 4.96.0
  _ZN6Sonnet11Highlighter7PrivateD2Ev@Base 4.96.0
  _ZN6Sonnet11Highlighter9setActiveEb@Base 4.96.0
+ _ZN6Sonnet11HighlighterC1EP14QPlainTextEditRK6QColor@Base 5.12.0
  _ZN6Sonnet11HighlighterC1EP9QTextEditRK6QColor@Base 4.96.0
+ _ZN6Sonnet11HighlighterC2EP14QPlainTextEditRK6QColor@Base 5.12.0
  _ZN6Sonnet11HighlighterC2EP9QTextEditRK6QColor@Base 4.96.0
  _ZN6Sonnet11HighlighterD0Ev@Base 4.96.0
  _ZN6Sonnet11HighlighterD1Ev@Base 4.96.0
@@ -80,7 +82,9 @@ libKF5SonnetUi.so.5 libkf5sonnetui5 #MINVER#
  _ZN6Sonnet19SpellCheckDecorator7Private18execSuggestionMenuERK6QPointRK7QStringRK11QTextCursor@Base 4.96.0
  _ZN6Sonnet19SpellCheckDecorator7Private18onContextMenuEventEP17QContextMenuEvent@Base 4.96.0
  _ZN6Sonnet19SpellCheckDecorator7Private24createDefaultHighlighterEv@Base 4.96.0
+ _ZN6Sonnet19SpellCheckDecoratorC1EP14QPlainTextEdit@Base 5.12.0
  _ZN6Sonnet19SpellCheckDecoratorC1EP9QTextEdit@Base 4.96.0
+ _ZN6Sonnet19SpellCheckDecoratorC2EP14QPlainTextEdit@Base 5.12.0
  _ZN6Sonnet19SpellCheckDecoratorC2EP9QTextEdit@Base 4.96.0
  _ZN6Sonnet19SpellCheckDecoratorD0Ev@Base 4.96.0
  _ZN6Sonnet19SpellCheckDecoratorD1Ev@Base 4.96.0
