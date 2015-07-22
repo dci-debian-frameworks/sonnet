@@ -1,6 +1,11 @@
 sonnet (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols files:
+    - Add new symbols; this doesn't break compilation on gcc 5 nor gcc 4.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:32:46 -0700
 
