@@ -1,9 +1,9 @@
-sonnet (5.13.0-0ubuntu1) UNRELEASED; urgency=medium
+sonnet (5.13.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
   * Add build-dep on libvoikko-dev
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Aug 2015 17:53:22 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:37:15 +0200
 
 sonnet (5.12.0-0ubuntu1) wily; urgency=medium
 
