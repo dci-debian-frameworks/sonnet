@@ -1,6 +1,7 @@
 sonnet (5.14.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.14.0).
+  * Removed private classes from exported symbols.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 14 Sep 2015 00:22:44 +0200
 
