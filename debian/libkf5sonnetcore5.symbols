@@ -51,6 +51,9 @@ libKF5SonnetCore.so.5 libkf5sonnetcore5 #MINVER#
  _ZN6Sonnet17BackgroundChecker4doneEv@Base 4.96.0
  _ZN6Sonnet17BackgroundChecker4stopEv@Base 4.96.0
  _ZN6Sonnet17BackgroundChecker5startEv@Base 4.96.0
+ (optional=gccinternal|arch=)_ZN6Sonnet17BackgroundChecker7PrivateD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=)_ZN6Sonnet17BackgroundChecker7PrivateD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=)_ZN6Sonnet17BackgroundChecker7PrivateD2Ev@Base 4.96.0
  _ZN6Sonnet17BackgroundChecker7replaceEiRK7QStringS3_@Base 4.96.0
  _ZN6Sonnet17BackgroundChecker7setTextERK7QString@Base 4.96.0
  _ZN6Sonnet17BackgroundChecker9checkWordERK7QString@Base 4.96.0

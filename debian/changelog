@@ -1,3 +1,21 @@
+sonnet (5.16.0-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Debian Merge: No remaining changes. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 02 Dec 2015 13:43:15 -0800
+
+sonnet (5.16.0-1) unstable; urgency=medium
+
+  * New upstream release (5.16.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:12:13 +0100
+
+sonnet (5.15.0-1) unstable; urgency=medium
+
+  * New upstream release (5.15.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:15:43 +0200
+
 sonnet (5.15.0-0ubuntu2) xenial; urgency=medium
 
   * Fix autopackagetests by adding allow-stderr to the requirements.
@@ -14,11 +32,31 @@ sonnet (5.15.0-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 14:00:43 +0100
 
+sonnet (5.14.0-1) unstable; urgency=medium
+
+  * New upstream release (5.14.0).
+  * Removed private classes from exported symbols.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:47:24 +0200
+
 sonnet (5.14.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:29:55 +0100
+
+sonnet (5.13.0-2) unstable; urgency=medium
+
+  * Add aspell as a build dependency.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 20:49:49 +0200
+
+sonnet (5.13.0-1) unstable; urgency=medium
+
+  * New upstream release (5.13.0).
+  * Update symbols files from buildds logs (5.12.0-1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 27 Aug 2015 18:35:58 +0200
 
 sonnet (5.13.0-0ubuntu1) wily; urgency=medium
 
@@ -26,6 +64,13 @@ sonnet (5.13.0-0ubuntu1) wily; urgency=medium
   * Add build-dep on libvoikko-dev
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:37:15 +0200
+
+sonnet (5.12.0-1) unstable; urgency=medium
+
+  * New upstream release (5.12.0).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:42:41 +0200
 
 sonnet (5.12.0-0ubuntu1) wily; urgency=medium
 
