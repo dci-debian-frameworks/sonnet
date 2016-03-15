@@ -19,7 +19,7 @@ Build-Depends: aspell,
 Standards-Version: 3.9.6
 Homepage: http://projects.kde.org/sonnet
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/sonnet.git
-Vcs-Git: https://anonscm.debian.org/pkg-kde/frameworks/sonnet.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/sonnet.git
 
 Package: libkf5sonnet-dev
 Section: libdevel
