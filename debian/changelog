@@ -1,6 +1,6 @@
-sonnet (5.20.0-1~6.gbpc5cd87) UNRELEASED; urgency=medium
+sonnet (5.20.0-1~7.gbp0d9409) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @c5cd87aee46d46b43f6109b2a0746a151b947501 **
+  ** SNAPSHOT build @0d9409beb12c88772a7fd3fb9cfa9eec7f52ff08 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -11,8 +11,9 @@ sonnet (5.20.0-1~6.gbpc5cd87) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 13:25:52 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 09:32:46 +0200
 
 sonnet (5.19.0-1) experimental; urgency=medium
 
