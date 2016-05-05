@@ -1,32 +1,17 @@
-sonnet (5.21.0-1~2.gbp538dce) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @538dce61689800b98679b31b64640ea6b89dca44 **
+sonnet (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @7e26d1a5d39a58a95e6d841868187026586ee00c **
-
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
   * Update acc test script
-  * UNRELEASED
   * uscan no longer supports more than one main upstream tarball being listed
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
 
-  [ Maximiliano Curia ]
-
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 30 Apr 2016 20:05:47 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 05 May 2016 18:50:33 +0200
 
 sonnet (5.19.0-1) experimental; urgency=medium
 
