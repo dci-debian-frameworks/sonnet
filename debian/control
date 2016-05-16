@@ -24,16 +24,30 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/sonnet.git
 Package: libkf5sonnet-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5sonnetcore5 (= ${binary:Version}),
+Depends: libkf5sonnet-dev-bin (= ${binary:Version}),
+         libkf5sonnetcore5 (= ${binary:Version}),
          libkf5sonnetui5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.4.0~)
-Description: spell checking library for Qt
+         qtbase5-dev (>= 5.4.0~),
+         ${misc:Depends}
+Description: spell checking library for Qt, devel files
  Sonnet is a Qt based library that offers easy access to spell
  checking using various plugin based backends.  It is part of KDE
  Frameworks 5.
  .
  This package contains development files for building software that uses
- libraries from the Sonnet framework
+ libraries from the Sonnet framework.
+
+Package: libkf5sonnet-dev-bin
+Section: libdevel
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: spell checking library for Qt, devel binaries
+ Sonnet is a Qt based library that offers easy access to spell
+ checking using various plugin based backends.  It is part of KDE
+ Frameworks 5.
+ .
+ This package contains the utility programs related to the Sonnet framework.
 
 Package: libkf5sonnetcore5
 Section: libs
@@ -43,7 +57,7 @@ Depends: libkf5sonnet5-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: sonnet-plugins (= ${binary:Version})
-Description: spell checking library for Qt
+Description: spell checking library for Qt, core lib
  Sonnet is a Qt based library that offers easy access to spell
  checking using various plugin based backends.  It is part of KDE
  Frameworks 5.
@@ -53,7 +67,7 @@ Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: sonnet-plugins (= ${binary:Version})
-Description: spell checking library for Qt
+Description: spell checking library for Qt, ui lib
  Sonnet is a Qt based library that offers easy access to spell
  checking using various plugin based backends.  It is part of KDE
  Frameworks 5.
@@ -65,7 +79,7 @@ Package: libkf5sonnet5-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: spell checking library for Qt
+Description: spell checking library for Qt, data files
  Sonnet is a Qt based library that offers easy access to spell
  checking using various plugin based backends.  It is part of KDE
  Frameworks 5.
@@ -77,7 +91,7 @@ Section: kde
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: hspell
-Description: spell checking library for Qt
+Description: spell checking library for Qt, plugins
  Sonnet is a Qt based library that offers easy access to spell
  checking using various plugin based backends.  It is part of KDE
  Frameworks 5.
