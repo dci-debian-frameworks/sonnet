@@ -1,3 +1,9 @@
+sonnet (5.22.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 May 2016 08:52:20 +0200
+
 sonnet (5.22.0-1) experimental; urgency=medium
 
   [ Automatic packaging ]
