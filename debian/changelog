@@ -1,10 +1,11 @@
-sonnet (5.24.0-1~1.gbpacc3cc) UNRELEASED; urgency=medium
+sonnet (5.25.0-1~1.gbp314a64) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @acc3ccdbbe3f9ffc9080b09a2ed4482d0c37bccc **
+  ** SNAPSHOT build @314a6457133ad608cb7885ce953c06b6bc1646a1 **
 
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 18:09:22 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 12:09:11 +0200
 
 sonnet (5.23.0-1) unstable; urgency=medium
 
