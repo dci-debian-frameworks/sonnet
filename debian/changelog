@@ -1,11 +1,17 @@
-sonnet (5.25.0-1~1.gbp314a64) UNRELEASED; urgency=medium
+sonnet (5.25.0-1~2.gbp850b46) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @850b46eb589f107240ad4147c06356d09d30bb7f **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @314a6457133ad608cb7885ce953c06b6bc1646a1 **
 
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 12:09:11 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:09:19 +0200
 
 sonnet (5.23.0-1) unstable; urgency=medium
 
