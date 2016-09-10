@@ -1,10 +1,16 @@
-sonnet (5.26.0-1~1.gbp31f534) UNRELEASED; urgency=medium
+sonnet (5.26.0-1~2.gbp5de251) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @5de251d2cf1de69392fb01ea5de84274c30435d9 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @31f5344ae1ed45cb1889fe99739b398052e64d25 **
 
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 18:09:59 +0200
+  [ Maximiliano Curia ]
+  * Update install files
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 10 Sep 2016 18:25:31 +0200
 
 sonnet (5.25.0-1) unstable; urgency=medium
 
