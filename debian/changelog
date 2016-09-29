@@ -1,16 +1,13 @@
-sonnet (5.26.0-1~2.gbp5de251) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @5de251d2cf1de69392fb01ea5de84274c30435d9 **
+sonnet (5.26.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @31f5344ae1ed45cb1889fe99739b398052e64d25 **
-
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Update install files
+  * Bump group breaks (5.26)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 10 Sep 2016 18:25:31 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:58:31 +0200
 
 sonnet (5.25.0-1) unstable; urgency=medium
 
