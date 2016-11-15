@@ -1,3 +1,11 @@
+sonnet (5.28.0-1~1.gbp97e430) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @97e430228c78dd4be917d33ef500621302cf26cf **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 17:41:16 +0100
+
 sonnet (5.27.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
