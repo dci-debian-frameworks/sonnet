@@ -104,5 +104,6 @@ Description: spell checking library for Qt, plugins
  checking using various plugin based backends.  It is part of KDE
  Frameworks 5.
  .
- This package provides plugins used by Sonnet to interact with
- the various spell checking backends.
+ This package provides plugins used by Sonnet to interact with the following
+ spell checking backends: aspell, hunspell or hspell. The dictionaries need to
+ be installed separatedly.
