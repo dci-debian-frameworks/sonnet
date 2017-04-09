@@ -1,0 +1,78 @@
+From: John Salatas <jsalatas@gmail.com>
+Date: Wed, 18 Jan 2017 13:51:56 -0800
+Subject: Fix segfault in trigrams generation and expose MAXGRAMS constant in
+ the header
+
+Differential Revision: https://phabricator.kde.org/D4181
+---
+ data/CMakeLists.txt        | 2 +-
+ data/gentrigrams.cpp       | 6 +++---
+ src/core/guesslanguage.cpp | 3 ---
+ src/core/guesslanguage.h   | 3 +++
+ 4 files changed, 7 insertions(+), 7 deletions(-)
+
+diff --git a/data/CMakeLists.txt b/data/CMakeLists.txt
+index 716a09f..d65cff7 100644
+--- a/data/CMakeLists.txt
++++ b/data/CMakeLists.txt
+@@ -10,7 +10,7 @@ ecm_mark_nongui_executable(parsetrigrams)
+ ecm_mark_nongui_executable(gentrigrams)
+ 
+ TARGET_LINK_LIBRARIES(parsetrigrams PUBLIC Qt5::Core)
+-TARGET_LINK_LIBRARIES(gentrigrams PUBLIC Qt5::Core)
++TARGET_LINK_LIBRARIES(gentrigrams PUBLIC Qt5::Core KF5::SonnetCore)
+ INSTALL(TARGETS parsetrigrams EXPORT KF5SonnetTargets ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
+ INSTALL(TARGETS gentrigrams EXPORT KF5SonnetTargets ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+diff --git a/data/gentrigrams.cpp b/data/gentrigrams.cpp
+index 7dd7755..6badbfa 100644
+--- a/data/gentrigrams.cpp
++++ b/data/gentrigrams.cpp
+@@ -25,6 +25,7 @@
+ #include <QtCore/QHash>
+ #include <QtCore/QString>
+ #include <QtCore/QDebug>
++#include "guesslanguage.h"
+ 
+ int main(int argc, char *argv[])
+ {
+@@ -75,9 +76,8 @@ int main(int argc, char *argv[])
+ 
+     qDebug() << "Weeding out...";
+     QMap<int, QString>::iterator i = orderedTrigrams.begin();
+-    while (orderedTrigrams.size() > 300) {
+-        orderedTrigrams.erase(i);
+-        i++;
++    while (orderedTrigrams.size() > Sonnet::MAXGRAMS) {
++        i = orderedTrigrams.erase(i);
+     }
+     qDebug() << "Weeded!";
+ 
+diff --git a/src/core/guesslanguage.cpp b/src/core/guesslanguage.cpp
+index 546c514..723ad96 100644
+--- a/src/core/guesslanguage.cpp
++++ b/src/core/guesslanguage.cpp
+@@ -61,9 +61,6 @@ az-Latn    az
+ namespace Sonnet
+ {
+ 
+-// Amount of trigrams in each file
+-static const int MAXGRAMS = 300;
+-
+ class GuessLanguagePrivate
+ {
+ public:
+diff --git a/src/core/guesslanguage.h b/src/core/guesslanguage.h
+index e1bb609..2f224b8 100644
+--- a/src/core/guesslanguage.h
++++ b/src/core/guesslanguage.h
+@@ -28,6 +28,9 @@
+ namespace Sonnet
+ {
+ 
++// Amount of trigrams in each file
++static const int MAXGRAMS = 300;
++
+ class GuessLanguagePrivate;
+ 
+ /**
