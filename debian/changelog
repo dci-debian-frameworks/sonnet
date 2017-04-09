@@ -1,4 +1,4 @@
-sonnet (5.28.0-2~) UNRELEASED; urgency=medium
+sonnet (5.28.0-2) unstable; urgency=medium
 
   * Update the sonnet-plugins package description (Closes: 801728)
   * Pick "Fix segfault in trigrams generation and expose MAXGRAMS constant in
@@ -6,7 +6,7 @@ sonnet (5.28.0-2~) UNRELEASED; urgency=medium
     Add upstream patch as:
      Fix-segfault-in-trigrams-generation-and-expose-MAXGRAMS-c.patch
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 09 Apr 2017 11:25:28 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Apr 2017 11:32:31 +0200
 
 sonnet (5.28.0-1) unstable; urgency=medium
 
