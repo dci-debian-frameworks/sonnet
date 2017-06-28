@@ -40,6 +40,16 @@ sonnet (5.29.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:10:27 +0000
 
+sonnet (5.28.0-2) unstable; urgency=medium
+
+  * Update the sonnet-plugins package description (Closes: 801728)
+  * Pick "Fix segfault in trigrams generation and expose MAXGRAMS constant in
+    the header" (c7f0b14)
+    Add upstream patch as:
+     Fix-segfault-in-trigrams-generation-and-expose-MAXGRAMS-c.patch
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Apr 2017 11:32:31 +0200
+
 sonnet (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
