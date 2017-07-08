@@ -6,7 +6,7 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: aspell,
                cmake (>= 3.0~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.35.0~),
+               extra-cmake-modules (>= 5.36.0~),
                hspell,
                libaspell-dev,
                libhunspell-dev,
