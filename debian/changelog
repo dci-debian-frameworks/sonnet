@@ -1,4 +1,4 @@
-sonnet (5.36.0-1~) UNRELEASED; urgency=medium
+sonnet (5.36.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -9,6 +9,8 @@ sonnet (5.36.0-1~) UNRELEASED; urgency=medium
   * Add libvoikko-dev build dep for finnish support
   * watch: Use https uris
   * New upstream release (5.36.0).
+  * Bump group breaks (5.36)
+  * Update build-deps and deps with the info from cmake
 
   [ Raymond Wooninck ]
   * Add signing key
@@ -17,7 +19,10 @@ sonnet (5.36.0-1~) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * acc c++11. now used more liberally
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 13:41:13 +0200
+  [ Scarlett Clark ]
+  * Add missing file
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Jul 2017 23:41:36 +0200
 
 sonnet (5.28.0-2) unstable; urgency=medium
 
