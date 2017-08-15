@@ -65,6 +65,7 @@ Description: spell checking library for Qt (documentation)
  Frameworks 5.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5sonnet5-data
 Architecture: all
