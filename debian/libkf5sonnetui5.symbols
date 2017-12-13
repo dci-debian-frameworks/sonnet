@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0 amd64
+# SymbolsHelper-Confirmed: 5.41.0 amd64
 libKF5SonnetUi.so.5 libkf5sonnetui5 #MINVER#
  _ZN6Sonnet11Highlighter10ignoreWordERK7QString@Base 4.96.0
  _ZN6Sonnet11Highlighter11eventFilterEP7QObjectP6QEvent@Base 4.96.0
@@ -62,6 +62,8 @@ libKF5SonnetUi.so.5 libkf5sonnetui5 #MINVER#
  _ZN6Sonnet18DictionaryComboBox11reloadComboEv@Base 4.96.0
  _ZN6Sonnet18DictionaryComboBox16staticMetaObjectE@Base 4.96.0
  _ZN6Sonnet18DictionaryComboBox17dictionaryChangedERK7QString@Base 4.96.0
+ _ZN6Sonnet18DictionaryComboBox19assignByDictionnaryERK7QString@Base 5.41.0
+ _ZN6Sonnet18DictionaryComboBox21assignDictionnaryNameERK7QString@Base 5.41.0
  _ZN6Sonnet18DictionaryComboBox21dictionaryNameChangedERK7QString@Base 4.96.0
  _ZN6Sonnet18DictionaryComboBox22setCurrentByDictionaryERK7QString@Base 4.96.0
  _ZN6Sonnet18DictionaryComboBox26setCurrentByDictionaryNameERK7QString@Base 4.96.0
@@ -75,9 +77,6 @@ libKF5SonnetUi.so.5 libkf5sonnetui5 #MINVER#
  _ZN6Sonnet19SpellCheckDecorator11qt_metacastEPKc@Base 4.96.0
  _ZN6Sonnet19SpellCheckDecorator14setHighlighterEPNS_11HighlighterE@Base 4.96.0
  _ZN6Sonnet19SpellCheckDecorator16staticMetaObjectE@Base 4.96.0
- _ZN6Sonnet19SpellCheckDecorator7Private18execSuggestionMenuERK6QPointRK7QStringRK11QTextCursor@Base 4.96.0
- _ZN6Sonnet19SpellCheckDecorator7Private18onContextMenuEventEP17QContextMenuEvent@Base 4.96.0
- _ZN6Sonnet19SpellCheckDecorator7Private24createDefaultHighlighterEv@Base 4.96.0
  _ZN6Sonnet19SpellCheckDecoratorC1EP14QPlainTextEdit@Base 5.12.0
  _ZN6Sonnet19SpellCheckDecoratorC1EP9QTextEdit@Base 4.96.0
  _ZN6Sonnet19SpellCheckDecoratorC2EP14QPlainTextEdit@Base 5.12.0
