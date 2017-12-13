@@ -20,7 +20,7 @@ Build-Depends: aspell,
                qttools5-dev (>= 5.4),
                qttools5-dev-tools (>= 5.4),
                zlib1g-dev,
-Standards-Version: 4.1.0
+Standards-Version: 4.1.2
 Homepage: http://projects.kde.org/sonnet
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/sonnet.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/sonnet.git
