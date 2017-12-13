@@ -1,3 +1,21 @@
+sonnet (5.41.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 08 Dec 2017 14:49:17 +0000
+
+sonnet (5.40.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 10 Nov 2017 13:01:06 +0000
+
+sonnet (5.39.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 15 Oct 2017 11:48:01 +0000
+
 sonnet (5.38.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.38.0).
@@ -72,6 +90,12 @@ sonnet (5.28.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:03:17 +0100
 
+sonnet (5.28.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Nov 2016 09:46:50 +0000
+
 sonnet (5.27.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
@@ -82,6 +106,12 @@ sonnet (5.27.0-1) unstable; urgency=medium
   * Bump group breaks (5.27)
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 16:58:27 +0200
+
+sonnet (5.27.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 08 Oct 2016 11:34:33 +0000
 
 sonnet (5.26.0-1) unstable; urgency=medium
 
@@ -94,6 +124,12 @@ sonnet (5.26.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:58:31 +0200
 
+sonnet (5.26.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 12 Sep 2016 08:35:58 +0000
+
 sonnet (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
@@ -104,12 +140,30 @@ sonnet (5.25.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 18 Aug 2016 17:17:52 +0200
 
+sonnet (5.25.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 13 Aug 2016 20:17:05 +0000
+
+sonnet (5.24.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 11 Jul 2016 07:43:19 +0000
+
 sonnet (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Jun 2016 08:32:31 +0200
+
+sonnet (5.23.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 13 Jun 2016 09:40:31 +0000
 
 sonnet (5.22.0-2) unstable; urgency=medium
 
@@ -127,6 +181,12 @@ sonnet (5.22.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 18 May 2016 23:42:06 +0200
 
+sonnet (5.22.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 17 May 2016 07:37:13 +0000
+
 sonnet (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
@@ -142,6 +202,18 @@ sonnet (5.21.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 05 May 2016 18:50:33 +0200
 
+sonnet (5.21.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 11 Apr 2016 09:24:37 +0000
+
+sonnet (5.20.0-0neon) wily; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 01 Apr 2016 11:09:19 +0000
+
 sonnet (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
@@ -155,6 +227,17 @@ sonnet (5.18.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:33:11 +0100
 
+sonnet (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  [ Scarlett Clark ]
+  * Debian Merge: No remaining changes. 
+  * New upstream release Xenial
+
+  [ Philip Muškovac ]
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:13:12 +0100
+
 sonnet (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
@@ -167,12 +250,34 @@ sonnet (5.15.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:15:43 +0200
 
+sonnet (5.15.0-0ubuntu2) xenial; urgency=medium
+
+  * Fix autopackagetests by adding allow-stderr to the requirements.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 03 Nov 2015 15:34:57 +0100
+
+sonnet (5.15.0-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 14:00:43 +0100
+
 sonnet (5.14.0-1) unstable; urgency=medium
 
   * New upstream release (5.14.0).
   * Removed private classes from exported symbols.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:47:24 +0200
+
+sonnet (5.14.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:29:55 +0100
 
 sonnet (5.13.0-2) unstable; urgency=medium
 
@@ -187,12 +292,33 @@ sonnet (5.13.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 27 Aug 2015 18:35:58 +0200
 
+sonnet (5.13.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+  * Add build-dep on libvoikko-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:37:15 +0200
+
 sonnet (5.12.0-1) unstable; urgency=medium
 
   * New upstream release (5.12.0).
   * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:42:41 +0200
+
+sonnet (5.12.0-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols files:
+    - Add new symbols; this doesn't break compilation on gcc 5 nor gcc 4.
+
+  [ Scarlett Clark ]
+  * Vivid backports. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 16:12:48 +0200
 
 sonnet (5.11.0-1) unstable; urgency=medium
 
@@ -203,6 +329,17 @@ sonnet (5.11.0-1) unstable; urgency=medium
   * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Jun 2015 12:20:12 +0200
+
+sonnet (5.10.0-0ubuntu1) wily; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.10.0).
+  * Update symbols files from buildds logs (5.9.0-1).
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Jun 2015 20:37:29 +0200
 
 sonnet (5.9.0-1) experimental; urgency=medium
 
