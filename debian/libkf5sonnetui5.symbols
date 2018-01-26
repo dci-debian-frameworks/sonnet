@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.41.0 amd64
+# SymbolsHelper-Confirmed: 5.42.0 amd64
 libKF5SonnetUi.so.5 libkf5sonnetui5 #MINVER#
  _ZN6Sonnet11Highlighter10ignoreWordERK7QString@Base 4.96.0
  _ZN6Sonnet11Highlighter11eventFilterEP7QObjectP6QEvent@Base 4.96.0
@@ -17,6 +17,7 @@ libKF5SonnetUi.so.5 libkf5sonnetui5 #MINVER#
  _ZN6Sonnet11Highlighter17slotAutoDetectionEv@Base 4.96.0
  _ZN6Sonnet11Highlighter18setCurrentLanguageERK7QString@Base 4.96.0
  _ZN6Sonnet11Highlighter18setMisspelledColorERK6QColor@Base 4.96.0
+ _ZN6Sonnet11Highlighter18suggestionsForWordERK7QStringRK11QTextCursori@Base 5.42.0
  _ZN6Sonnet11Highlighter18suggestionsForWordERK7QStringi@Base 4.96.0
  _ZN6Sonnet11Highlighter19addWordToDictionaryERK7QString@Base 4.96.0
  _ZN6Sonnet11Highlighter19setIntraWordEditingEb@Base 4.96.0
