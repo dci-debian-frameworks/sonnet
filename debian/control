@@ -19,6 +19,8 @@ Build-Depends: aspell,
                qtbase5-dev (>= 5.7.0~),
                qttools5-dev (>= 5.4),
                qttools5-dev-tools (>= 5.4),
+               xauth,
+               xvfb,
                zlib1g-dev,
 Standards-Version: 4.1.2
 Homepage: http://projects.kde.org/sonnet
