@@ -1,62 +1,67 @@
-sonnet (5.38.0-0neon) xenial; urgency=medium
+sonnet (5.41.0-0neon) xenial; urgency=medium
 
   * New release
 
- -- Neon CI <neon@kde.org>  Mon, 11 Sep 2017 13:32:23 +0000
+ -- Neon CI <neon@kde.org>  Fri, 08 Dec 2017 14:49:17 +0000
 
-sonnet (5.37.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Fri, 11 Aug 2017 15:18:40 +0000
-
-sonnet (5.36.0-0neon) xenial; urgency=medium
+sonnet (5.40.0-0neon) xenial; urgency=medium
 
   * New release
 
- -- Neon CI <neon@kde.org>  Mon, 10 Jul 2017 17:15:29 +0000
+ -- Neon CI <neon@kde.org>  Fri, 10 Nov 2017 13:01:06 +0000
 
-sonnet (5.35.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Sun, 11 Jun 2017 20:38:41 +0000
-
-sonnet (5.34.0-0neon) xenial; urgency=medium
+sonnet (5.39.0-0neon) xenial; urgency=medium
 
   * New release
 
- -- Neon CI <neon@kde.org>  Sun, 14 May 2017 17:43:48 +0000
+ -- Neon CI <neon@kde.org>  Sun, 15 Oct 2017 11:48:01 +0000
 
-sonnet (5.33.0-0neon) xenial; urgency=medium
+sonnet (5.37.0-2) sid; urgency=medium
 
-  * New release
+  * New revision
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Release to sid
 
- -- Neon CI <neon@kde.org>  Fri, 07 Apr 2017 16:26:41 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 03 Sep 2017 09:59:13 +0200
 
-sonnet (5.32.0-0neon) xenial; urgency=medium
+sonnet (5.37.0-1) experimental; urgency=medium
 
-  * New release
+  * New upstream release (5.37.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.37)
+  * Add a libkf5sonnet-doc package for the qch files
+  * Bump Standards-Version to 4.0.1.
+  * Set section for the doc package
+  * Release to experimental
 
- -- Neon CI <neon@kde.org>  Sun, 12 Mar 2017 13:24:40 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Aug 2017 10:42:35 +0200
 
-sonnet (5.31.0-0neon) xenial; urgency=medium
+sonnet (5.36.0-1) experimental; urgency=medium
 
-  * New release
+  [ Maximiliano Curia ]
+  * New upstream release (5.35.0).
+  * Bump Standards-Version to 4.0.0.
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.35)
+  * Drop upstream patches
+  * Add libvoikko-dev build dep for finnish support
+  * watch: Use https uris
+  * New upstream release (5.36.0).
+  * Bump group breaks (5.36)
+  * Update build-deps and deps with the info from cmake
 
- -- Neon CI <neon@kde.org>  Mon, 13 Feb 2017 14:42:21 +0000
+  [ Raymond Wooninck ]
+  * Add signing key
+  * also include signing-key
 
-sonnet (5.30.0-0neon) xenial; urgency=medium
+  [ Harald Sitter ]
+  * acc c++11. now used more liberally
 
-  * New release
+  [ Scarlett Clark ]
+  * Add missing file
 
- -- Neon CI <neon@kde.org>  Mon, 16 Jan 2017 13:44:57 +0000
-
-sonnet (5.29.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:10:27 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Jul 2017 23:41:36 +0200
 
 sonnet (5.28.0-2) unstable; urgency=medium
 
